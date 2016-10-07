@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/MeasInfo"
         android:padding="10dp"
-        android:background="?android:attr/colorBackground">
+        android:background="?android:attr/panelColorBackground">
 
         <LinearLayout
             android:orientation="horizontal"
@@ -28,7 +28,8 @@
                 android:layout_height="wrap_content"
                 android:text="ПК:"
                 android:id="@+id/editText2"
-                android:layout_weight="0" />
+                android:layout_weight="0"
+                android:textColor="?android:attr/textColorTertiary" />
 
             <EditText
                 android:layout_width="wrap_content"
@@ -36,7 +37,9 @@
                 android:inputType="textPersonName"
                 android:text="p10-012"
                 android:id="@+id/editText3"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:textAppearance="@android:style/TextAppearance.Material.Medium"
+                android:textColor="?attr/actionMenuTextColor" />
 
             <Button
                 android:text="+"
@@ -56,14 +59,16 @@
                 android:layout_height="wrap_content"
                 android:text="F:"
                 android:id="@+id/textView11"
-                android:layout_weight="0" />
+                android:layout_weight="0"
+                android:textColor="?android:attr/textColorTertiary" />
 
             <Spinner
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/spinner"
                 android:entries="@array/Frequencies"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:theme="?android:attr/actionBarTabTextStyle" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -71,7 +76,8 @@
                 android:text="(1)"
                 android:id="@+id/editText"
                 android:layout_weight="1"
-                android:gravity="right" />
+                android:gravity="right"
+                android:textColor="?android:attr/textColorTertiary" />
         </LinearLayout>
     </RelativeLayout>
 
@@ -92,15 +98,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal">
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="&#916;U (1) :"
-                    android:layout_column="0"
-                    android:layout_row="0"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                    android:layout_gravity="right" />
-
 
                 <EditText
                     android:layout_column="1"
@@ -112,7 +109,8 @@
                     android:id="@+id/editText4"
                     android:text="14.555"
                     android:gravity="right|center_vertical"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="?android:attr/colorActivatedHighlight" />
 
                 <TextView
                     android:text="мВ"
@@ -149,7 +147,8 @@
                     android:id="@+id/editText6"
                     android:text="9.515"
                     android:gravity="right|center_vertical"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="?android:attr/colorActivatedHighlight" />
 
                 <TextView
                     android:text="мВ"
@@ -188,7 +187,8 @@
                     android:id="@+id/editText9"
                     android:text="4.555"
                     android:gravity="right|center_vertical"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="?android:attr/colorActivatedHighlight" />
 
                 <TextView
                     android:text="мВ"
@@ -240,7 +240,8 @@
                     android:id="@+id/editText19"
                     android:text="0.255"
                     android:gravity="right|center_vertical"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="?android:attr/colorAccent" />
 
                 <TextView
                     android:text="&#176;"
@@ -276,7 +277,8 @@
                     android:id="@+id/editText29"
                     android:text="12.255"
                     android:gravity="right|center_vertical"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="?android:attr/colorAccent" />
 
                 <TextView
                     android:text="&#176;"
@@ -293,6 +295,15 @@
                     android:id="@+id/textView31"
                     android:textColor="?android:attr/textColorTertiary"
                     android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="&#916;U (1) :"
+                    android:layout_column="0"
+                    android:layout_row="0"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:layout_gravity="right" />
 
             </GridLayout>
 
@@ -498,7 +509,7 @@
             android:id="@+id/button6"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:textColor="@android:color/holo_red_dark" />
+            android:textColor="@android:color/holo_red_light" />
 
         <Button
             android:text="ОЧИСТИТЬ"
@@ -515,7 +526,7 @@
             android:id="@+id/button4"
             android:layout_width="0dp"
             android:layout_weight="1"
-            android:textColor="@android:color/holo_green_dark" />
+            android:textColor="@android:color/holo_green_light" />
     </LinearLayout>
 
 </RelativeLayout>
