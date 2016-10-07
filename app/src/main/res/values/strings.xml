@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">МЭРИ Smart</string>
+    <string name="action_settings">Настройки</string>
+    <string name="charge">Заряд</string>
+
+    <string name="checkbox1_title">CheckBox 1</string>
+    <string name="checkbox1_summary">Summary of CheckBox 1</string>
+    <string name="edittext1_title">EditText 1</string>
+    <string name="edittext1_summary">Summary of EditText 1</string>
+    <string name="list1_title">List 1</string>
+    <string name="list1_summary">Summary of List 1</string>
+    <string-array name="entries">
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+    </string-array>
+    <string-array name="entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="Frequencies">
+        <item>1.22 Гц</item>
+        <item>2.44 Гц</item>
+        <item>4.88 Гц</item>
+        <item>9.76 Гц</item>
+    </string-array>
+</resources>
