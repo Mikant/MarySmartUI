@@ -9,6 +9,20 @@
     <string name="edittext1_summary">Summary of EditText 1</string>
     <string name="list1_title">List 1</string>
     <string name="list1_summary">Summary of List 1</string>
+    <string name="Site">ПК:</string>
+    <string name="SiteName">Имя пикета</string>
+    <string name="dU1label">ΔU (1) :</string>
+    <string name="mV">мВ</string>
+    <string name="dU3label">ΔU (3) :</string>
+    <string name="dU5label">ΔU (5) :</string>
+    <string name="dPhi1_3label">Δφ (1–3) :</string>
+    <string name="degree">°</string>
+    <string name="dPhi3_5label">Δφ (3–5) :</string>
+    <string name="no_data">. . .</string>
+    <string name="defaultSiteName">001</string>
+    <string name="Stop">СТОП</string>
+    <string name="clear">CБРОС</string>
+    <string name="start">СТАРТ</string>
     <string-array name="entries">
         <item>one</item>
         <item>two</item>
