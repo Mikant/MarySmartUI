@@ -39,4 +39,12 @@
         <item>4.88 Гц</item>
         <item>9.76 Гц</item>
     </string-array>
+    <string name="Method">Выбор метода</string>
+    <string name="Connection">Подключение к прибору</string>
+    <string name="Settings">Настройки</string>
+    <string name="enter_site_name">Введите имя пикета</string>
+    <string name="ok">Ok</string>
+    <string name="default_site_name">p01-001</string>
+    <string name="cancel">Отмена</string>
+
 </resources>
