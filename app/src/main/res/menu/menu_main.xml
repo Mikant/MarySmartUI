@@ -13,19 +13,16 @@
         android:id="@+id/action_settings"
         android:icon="@drawable/ic_settings"
         android:title="@string/action_settings"
-        app:showAsAction="ifRoom"
-        android:onClick="onSettingsClick" />
+        app:showAsAction="ifRoom" />
 
     <item
         android:id="@+id/method"
         android:title="@string/Method"
-        app:showAsAction="never"
-        android:onClick="onMethodClick" />
+        app:showAsAction="never" />
 
     <item
         android:id="@+id/connection"
         android:title="@string/Connection"
-        app:showAsAction="never"
-        android:onClick="onConnectionClick" />
+        app:showAsAction="never" />
 
 </menu>

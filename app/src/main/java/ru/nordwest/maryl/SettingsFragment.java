@@ -7,9 +7,10 @@ public class SettingsFragment extends PreferenceFragment {
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(ru.nordwest.maryl.R.xml.preferences);
+        addPreferencesFromResource(ru.nordwest.maryl.R.xml.settings);
     }
 
+    /*
     @Override
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
@@ -17,4 +18,5 @@ public class SettingsFragment extends PreferenceFragment {
         //getView().setBackgroundColor(ContextCompat.getColor(getContext(), R.color.colorPrimary));
         getView().setClickable(true);
     }
+    */
 }

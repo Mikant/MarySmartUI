@@ -156,7 +156,7 @@
             android:id="@+id/dPhi1_3value"
             android:text="@string/no_data"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="?android:attr/colorAccent"
+            android:textColor="?attr/colorAccent"
             android:layout_gravity="end"
             android:gravity="center_vertical|end" />
 
@@ -196,7 +196,7 @@
             android:id="@+id/dPhi3_5value"
             android:text="@string/no_data"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="?android:attr/colorAccent"
+            android:textColor="?attr/colorAccent"
             android:layout_gravity="end"
             android:gravity="center_vertical|end" />
 

@@ -23,28 +23,43 @@
     <string name="Stop">СТОП</string>
     <string name="clear">CБРОС</string>
     <string name="start">СТАРТ</string>
+
     <string-array name="entries">
         <item>one</item>
         <item>two</item>
         <item>three</item>
     </string-array>
+
     <string-array name="entry_values">
         <item>1</item>
         <item>2</item>
         <item>3</item>
     </string-array>
+
     <string-array name="Frequencies">
         <item>1.22 Гц</item>
         <item>2.44 Гц</item>
         <item>4.88 Гц</item>
         <item>9.76 Гц</item>
     </string-array>
-    <string name="Method">Выбор метода</string>
+
+    <string-array name="Methods">
+        <item>ЧЗ-ВП</item>
+        <item>ВЭЗ-ВП</item>
+        <item>Электропрофилирование</item>
+        <item>Промышленные частоты | 50 Гц</item>
+        <item>Промышленные частоты | 60 Гц</item>
+        <item>Естественная поляризация</item>
+        <item>Блуждающие токи</item>
+    </string-array>
+
+    <string name="Method">Метод</string>
     <string name="Connection">Подключение к прибору</string>
     <string name="Settings">Настройки</string>
     <string name="enter_site_name">Введите имя пикета</string>
     <string name="ok">Ok</string>
     <string name="default_site_name">p01-001</string>
     <string name="cancel">Отмена</string>
+    <string name="method_summary">Выбор электроразведочного метода из списка</string>
 
 </resources>

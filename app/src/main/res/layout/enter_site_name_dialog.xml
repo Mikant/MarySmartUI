@@ -14,7 +14,7 @@
         android:padding="10dp"
         android:background="@color/colorPrimaryDark"
         android:text="@string/enter_site_name"
-        android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
     <EditText
         android:id="@+id/siteName"

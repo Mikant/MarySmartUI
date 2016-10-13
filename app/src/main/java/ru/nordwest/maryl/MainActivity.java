@@ -1,5 +1,6 @@
 package ru.nordwest.maryl;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -29,10 +30,10 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case ru.nordwest.maryl.R.id.action_settings:
 
-                getFragmentManager()
-                    .beginTransaction()
-                    .replace(android.R.id.content, new SettingsFragment())
-                    .commit();
+            {
+                Intent intent = new Intent(this, SettingsActivity.class);
+                startActivity(intent);
+            }
 
                 return true;
             default:
@@ -40,4 +41,4 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
- }
+}
